@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490C122618E07C13009DD96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C122518E07C13009DD96C /* Foundation.framework */; };
+		490C122B18E07C13009DD96C /* ShareTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 490C122A18E07C13009DD96C /* ShareTools.h */; };
+		490C122D18E07C13009DD96C /* ShareTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C122C18E07C13009DD96C /* ShareTools.m */; };
+		490C123418E07C13009DD96C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C123318E07C13009DD96C /* XCTest.framework */; };
+		490C123518E07C13009DD96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C122518E07C13009DD96C /* Foundation.framework */; };
+		490C123718E07C13009DD96C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C123618E07C13009DD96C /* UIKit.framework */; };
+		490C123A18E07C13009DD96C /* libShareTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C122218E07C13009DD96C /* libShareTools.a */; };
+		490C124018E07C13009DD96C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 490C123E18E07C13009DD96C /* InfoPlist.strings */; };
+		490C124218E07C13009DD96C /* ShareToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C124118E07C13009DD96C /* ShareToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		490C123818E07C13009DD96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 490C121A18E07C13009DD96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490C122118E07C13009DD96C;
+			remoteInfo = ShareTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		490C122018E07C13009DD96C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				490C122B18E07C13009DD96C /* ShareTools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		490C122218E07C13009DD96C /* libShareTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShareTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		490C122518E07C13009DD96C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		490C122918E07C13009DD96C /* ShareTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareTools-Prefix.pch"; sourceTree = "<group>"; };
+		490C122A18E07C13009DD96C /* ShareTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareTools.h; sourceTree = "<group>"; };
+		490C122C18E07C13009DD96C /* ShareTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTools.m; sourceTree = "<group>"; };
+		490C123218E07C13009DD96C /* ShareToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		490C123318E07C13009DD96C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		490C123618E07C13009DD96C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		490C123D18E07C13009DD96C /* ShareToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareToolsTests-Info.plist"; sourceTree = "<group>"; };
+		490C123F18E07C13009DD96C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		490C124118E07C13009DD96C /* ShareToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490C121F18E07C13009DD96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C122618E07C13009DD96C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490C122F18E07C13009DD96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C123418E07C13009DD96C /* XCTest.framework in Frameworks */,
+				490C123A18E07C13009DD96C /* libShareTools.a in Frameworks */,
+				490C123718E07C13009DD96C /* UIKit.framework in Frameworks */,
+				490C123518E07C13009DD96C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490C121918E07C13009DD96C = {
+			isa = PBXGroup;
+			children = (
+				490C122718E07C13009DD96C /* ShareTools */,
+				490C123B18E07C13009DD96C /* ShareToolsTests */,
+				490C122418E07C13009DD96C /* Frameworks */,
+				490C122318E07C13009DD96C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490C122318E07C13009DD96C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490C122218E07C13009DD96C /* libShareTools.a */,
+				490C123218E07C13009DD96C /* ShareToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490C122418E07C13009DD96C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490C122518E07C13009DD96C /* Foundation.framework */,
+				490C123318E07C13009DD96C /* XCTest.framework */,
+				490C123618E07C13009DD96C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		490C122718E07C13009DD96C /* ShareTools */ = {
+			isa = PBXGroup;
+			children = (
+				490C122A18E07C13009DD96C /* ShareTools.h */,
+				490C122C18E07C13009DD96C /* ShareTools.m */,
+				490C122818E07C13009DD96C /* Supporting Files */,
+			);
+			path = ShareTools;
+			sourceTree = "<group>";
+		};
+		490C122818E07C13009DD96C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490C122918E07C13009DD96C /* ShareTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490C123B18E07C13009DD96C /* ShareToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				490C124118E07C13009DD96C /* ShareToolsTests.m */,
+				490C123C18E07C13009DD96C /* Supporting Files */,
+			);
+			path = ShareToolsTests;
+			sourceTree = "<group>";
+		};
+		490C123C18E07C13009DD96C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490C123D18E07C13009DD96C /* ShareToolsTests-Info.plist */,
+				490C123E18E07C13009DD96C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490C122118E07C13009DD96C /* ShareTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490C124518E07C13009DD96C /* Build configuration list for PBXNativeTarget "ShareTools" */;
+			buildPhases = (
+				490C121E18E07C13009DD96C /* Sources */,
+				490C121F18E07C13009DD96C /* Frameworks */,
+				490C122018E07C13009DD96C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareTools;
+			productName = ShareTools;
+			productReference = 490C122218E07C13009DD96C /* libShareTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		490C123118E07C13009DD96C /* ShareToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490C124818E07C13009DD96C /* Build configuration list for PBXNativeTarget "ShareToolsTests" */;
+			buildPhases = (
+				490C122E18E07C13009DD96C /* Sources */,
+				490C122F18E07C13009DD96C /* Frameworks */,
+				490C123018E07C13009DD96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490C123918E07C13009DD96C /* PBXTargetDependency */,
+			);
+			name = ShareToolsTests;
+			productName = ShareToolsTests;
+			productReference = 490C123218E07C13009DD96C /* ShareToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490C121A18E07C13009DD96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ST;
+			};
+			buildConfigurationList = 490C121D18E07C13009DD96C /* Build configuration list for PBXProject "ShareTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 490C121918E07C13009DD96C;
+			productRefGroup = 490C122318E07C13009DD96C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490C122118E07C13009DD96C /* ShareTools */,
+				490C123118E07C13009DD96C /* ShareToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490C123018E07C13009DD96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C124018E07C13009DD96C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490C121E18E07C13009DD96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C122D18E07C13009DD96C /* ShareTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490C122E18E07C13009DD96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C124218E07C13009DD96C /* ShareToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490C123918E07C13009DD96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490C122118E07C13009DD96C /* ShareTools */;
+			targetProxy = 490C123818E07C13009DD96C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		490C123E18E07C13009DD96C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490C123F18E07C13009DD96C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490C124318E07C13009DD96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		490C124418E07C13009DD96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		490C124618E07C13009DD96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ShareTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareTools/ShareTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		490C124718E07C13009DD96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ShareTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareTools/ShareTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		490C124918E07C13009DD96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareTools/ShareTools-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareToolsTests/ShareToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		490C124A18E07C13009DD96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareTools/ShareTools-Prefix.pch";
+				INFOPLIST_FILE = "ShareToolsTests/ShareToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490C121D18E07C13009DD96C /* Build configuration list for PBXProject "ShareTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490C124318E07C13009DD96C /* Debug */,
+				490C124418E07C13009DD96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490C124518E07C13009DD96C /* Build configuration list for PBXNativeTarget "ShareTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490C124618E07C13009DD96C /* Debug */,
+				490C124718E07C13009DD96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		490C124818E07C13009DD96C /* Build configuration list for PBXNativeTarget "ShareToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490C124918E07C13009DD96C /* Debug */,
+				490C124A18E07C13009DD96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 490C121A18E07C13009DD96C /* Project object */;
+}

@@ -16,6 +16,12 @@
 		490C123A18E07C13009DD96C /* libShareTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C122218E07C13009DD96C /* libShareTools.a */; };
 		490C124018E07C13009DD96C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 490C123E18E07C13009DD96C /* InfoPlist.strings */; };
 		490C124218E07C13009DD96C /* ShareToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C124118E07C13009DD96C /* ShareToolsTests.m */; };
+		490C133618E1C1F6009DD96C /* STAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C133518E1C1F6009DD96C /* STAuthentication.m */; };
+		490C13A118E1CA86009DD96C /* STTCWeiboAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C13A018E1CA86009DD96C /* STTCWeiboAuthentication.m */; };
+		490C13A418E1CA9A009DD96C /* STWeiboAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C13A318E1CA9A009DD96C /* STWeiboAuthentication.m */; };
+		490C140218E3207B009DD96C /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C13AE18E3207B009DD96C /* libWeiboSDK.a */; };
+		490C141118E3207B009DD96C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C13FF18E3207B009DD96C /* libWeChatSDK.a */; };
+		490C141918E3209E009DD96C /* libTCWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C141418E3209E009DD96C /* libTCWeiboSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,24 @@
 		490C123D18E07C13009DD96C /* ShareToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareToolsTests-Info.plist"; sourceTree = "<group>"; };
 		490C123F18E07C13009DD96C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		490C124118E07C13009DD96C /* ShareToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareToolsTests.m; sourceTree = "<group>"; };
+		490C133518E1C1F6009DD96C /* STAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAuthentication.m; sourceTree = "<group>"; };
+		490C133718E1C424009DD96C /* STAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAuthentication.h; sourceTree = "<group>"; };
+		490C133818E1C432009DD96C /* STAuthenticationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAuthenticationProtocol.h; sourceTree = "<group>"; };
+		490C133918E1C4AD009DD96C /* STTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTypes.h; sourceTree = "<group>"; };
+		490C139F18E1CA86009DD96C /* STTCWeiboAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTCWeiboAuthentication.h; sourceTree = "<group>"; };
+		490C13A018E1CA86009DD96C /* STTCWeiboAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTCWeiboAuthentication.m; sourceTree = "<group>"; };
+		490C13A218E1CA9A009DD96C /* STWeiboAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWeiboAuthentication.h; sourceTree = "<group>"; };
+		490C13A318E1CA9A009DD96C /* STWeiboAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWeiboAuthentication.m; sourceTree = "<group>"; };
+		490C13AA18E31DB5009DD96C /* STSocialShareProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSocialShareProtocol.h; sourceTree = "<group>"; };
+		490C13AE18E3207B009DD96C /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		490C13AF18E3207B009DD96C /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		490C13B018E3207B009DD96C /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		490C13FF18E3207B009DD96C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		490C140018E3207B009DD96C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		490C140118E3207B009DD96C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		490C141418E3209E009DD96C /* libTCWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTCWeiboSDK.a; sourceTree = "<group>"; };
+		490C141518E3209E009DD96C /* WeiboApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApi.h; sourceTree = "<group>"; };
+		490C141618E3209E009DD96C /* WeiboApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				490C122618E07C13009DD96C /* Foundation.framework in Frameworks */,
+				490C141118E3207B009DD96C /* libWeChatSDK.a in Frameworks */,
+				490C141918E3209E009DD96C /* libTCWeiboSDK.a in Frameworks */,
+				490C140218E3207B009DD96C /* libWeiboSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +137,18 @@
 		490C122718E07C13009DD96C /* ShareTools */ = {
 			isa = PBXGroup;
 			children = (
+				490C13AC18E3207B009DD96C /* Third */,
 				490C122A18E07C13009DD96C /* ShareTools.h */,
 				490C122C18E07C13009DD96C /* ShareTools.m */,
+				490C133818E1C432009DD96C /* STAuthenticationProtocol.h */,
+				490C13AA18E31DB5009DD96C /* STSocialShareProtocol.h */,
+				490C133718E1C424009DD96C /* STAuthentication.h */,
+				490C133518E1C1F6009DD96C /* STAuthentication.m */,
+				490C139F18E1CA86009DD96C /* STTCWeiboAuthentication.h */,
+				490C13A018E1CA86009DD96C /* STTCWeiboAuthentication.m */,
+				490C13A218E1CA9A009DD96C /* STWeiboAuthentication.h */,
+				490C13A318E1CA9A009DD96C /* STWeiboAuthentication.m */,
+				490C133918E1C4AD009DD96C /* STTypes.h */,
 				490C122818E07C13009DD96C /* Supporting Files */,
 			);
 			path = ShareTools;
@@ -141,6 +178,47 @@
 				490C123E18E07C13009DD96C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490C13AC18E3207B009DD96C /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				490C13AD18E3207B009DD96C /* libWeiboSDK */,
+				490C13B118E3207B009DD96C /* TCWeiboSDK */,
+				490C13FE18E3207B009DD96C /* WeChatSDK_1.4.2.1 */,
+			);
+			name = Third;
+			path = ../../Third;
+			sourceTree = "<group>";
+		};
+		490C13AD18E3207B009DD96C /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				490C13AE18E3207B009DD96C /* libWeiboSDK.a */,
+				490C13AF18E3207B009DD96C /* WeiboSDK.bundle */,
+				490C13B018E3207B009DD96C /* WeiboSDK.h */,
+			);
+			path = libWeiboSDK;
+			sourceTree = "<group>";
+		};
+		490C13B118E3207B009DD96C /* TCWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				490C141418E3209E009DD96C /* libTCWeiboSDK.a */,
+				490C141518E3209E009DD96C /* WeiboApi.h */,
+				490C141618E3209E009DD96C /* WeiboApiObject.h */,
+			);
+			path = TCWeiboSDK;
+			sourceTree = "<group>";
+		};
+		490C13FE18E3207B009DD96C /* WeChatSDK_1.4.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				490C13FF18E3207B009DD96C /* libWeChatSDK.a */,
+				490C140018E3207B009DD96C /* WXApi.h */,
+				490C140118E3207B009DD96C /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.4.2.1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490C13A418E1CA9A009DD96C /* STWeiboAuthentication.m in Sources */,
+				490C133618E1C1F6009DD96C /* STAuthentication.m in Sources */,
+				490C13A118E1CA86009DD96C /* STTCWeiboAuthentication.m in Sources */,
 				490C122D18E07C13009DD96C /* ShareTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +413,13 @@
 				DSTROOT = /tmp/ShareTools.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareTools/ShareTools-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/libWeiboSDK,
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/TCWeiboSDK/lib,
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/WeChatSDK_1.4.2.1,
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/TCWeiboSDK,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -344,6 +432,13 @@
 				DSTROOT = /tmp/ShareTools.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareTools/ShareTools-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/libWeiboSDK,
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/TCWeiboSDK/lib,
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/WeChatSDK_1.4.2.1,
+					/Volumes/Work/other/steven/Prjs/ShareToolsDemo/Third/TCWeiboSDK,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -405,6 +500,7 @@
 				490C124718E07C13009DD96C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		490C124818E07C13009DD96C /* Build configuration list for PBXNativeTarget "ShareToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +509,7 @@
 				490C124A18E07C13009DD96C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
